@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    @apply text-4xl font-bold tracking-wide;
+}
+
+h3 {
+    @apply text-xl font-semibold;
+}
+
+.navigation-card {
+    @apply flex flex-col items-center bg-blue-300 rounded-lg px-4 py-2 shadow-md hover:scale-105;    
+}

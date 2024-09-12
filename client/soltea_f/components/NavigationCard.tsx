@@ -1,5 +1,3 @@
-import { title } from "process";
-
 interface NavigationCardProps {
     title: string;
     description: string;
@@ -8,7 +6,7 @@ interface NavigationCardProps {
 
 const NavigationCard = ({title, description, href}: NavigationCardProps) => {
     return (
-        <div>
+        <div classname= 'navigation-card'>
             <a href="href">
                 <div>
                     <h3> {title} </h3>
